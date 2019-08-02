@@ -1,10 +1,10 @@
 {
-  "name": "@ianwalter/eslint-config-react",
-  "description": "Ian's ESLint configuration for React and Preact",
+  "name": "@ianwalter/eslint-config-svelte",
+  "description": "Ian's ESLint configuration for Svelte",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianwalter/eslint-config-react.git"
+    "url": "git+https://github.com/ianwalter/eslint-config-svelte.git"
   },
   "keywords": [
     "eslint",
@@ -14,24 +14,22 @@
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/ianwalter/eslint-config-react/issues"
+    "url": "https://github.com/ianwalter/eslint-config-svelte/issues"
   },
-  "homepage": "https://github.com/ianwalter/eslint-config-react#readme",
+  "homepage": "https://github.com/ianwalter/eslint-config-svelte#readme",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js preact.js tests/tests.js",
+    "lint": "eslint index.js tests/tests.js",
     "test": "bff"
   },
   "files": [
     ".eslintrc.json",
-    "index.js",
-    "preact.js"
+    "index.js"
   ],
   "dependencies": {
     "@ianwalter/eslint-config": "^2.0.1",
     "babel-eslint": "^10.0.2",
-    "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint": "^5.16.0"
   },
   "devDependencies": {
     "@ianwalter/bff": "^6.4.0",

@@ -1,34 +1,22 @@
-# @ianwalter/eslint-config-react
-> Ian's ESLint configuration for [React][reactUrl] and [Preact][preactUrl]
+# @ianwalter/eslint-config-svelte
+> Ian's ESLint configuration for [Svelte][svelteUrl]
 
 [![npm page][npmImage]][npmUrl]
 
 ## Installation
 
 ```console
-yarn add @ianwalter/eslint-config-react --dev
+yarn add @ianwalter/eslint-config-svelte --dev
 ```
 
 ## Usage
 
-In `package.json`, for React:
 
 ```js
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@ianwalter/react"
-    ]
-  }
-```
-
-For Preact:
-
-```js
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@ianwalter/eslint-config-react/preact"
+      "@ianwalter/svelte"
     ]
   }
 ```
@@ -48,10 +36,9 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 Created by [Ian Walter](https://iankwalter.com)
 
 [eslintUrl]: https://eslint.org/
-[reactUrl]: https://reactjs.org/
-[preactUrl]: https://preactjs.com/
-[npmImage]: https://img.shields.io/npm/v/@ianwalter/eslint-config-react.svg
-[npmUrl]: https://www.npmjs.com/package/@ianwalter/eslint-config-react
+[svelteUrl]: https://svelte.dev
+[npmImage]: https://img.shields.io/npm/v/@ianwalter/eslint-config-svelte.svg
+[npmUrl]: https://www.npmjs.com/package/@ianwalter/eslint-config-svelte
 [configUrl]: https://github.com/ianwalter/eslint-config
 [vueUrl]: https://github.com/ianwalter/eslint-config-vue
-[licenseUrl]: https://github.com/ianwalter/eslint-config-react/blob/master/LICENSE
+[licenseUrl]: https://github.com/ianwalter/eslint-config-svelte/blob/master/LICENSE
