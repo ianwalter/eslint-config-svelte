@@ -27,7 +27,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@ianwalter/eslint-config": "^2.2.0",
+    "@ianwalter/eslint-config": "^2.4.0",
     "babel-eslint": "^10.0.2"
   },
   "devDependencies": {
