@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@ianwalter/bff": "^6.5.2",
-    "@ianwalter/release": "^3.0.5",
+    "@ianwalter/release": "^3.0.6",
     "@ianwalter/renovate-config": "^1.2.0"
   },
   "renovate": {
