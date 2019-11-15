@@ -2,6 +2,7 @@
 > Ian's ESLint configuration for [Svelte][svelteUrl]
 
 [![npm page][npmImage]][npmUrl]
+[![CI][ciImage]][ciUrl]
 
 ## Installation
 
@@ -29,16 +30,18 @@ yarn add @ianwalter/eslint-config-svelte --dev
 
 ## License
 
-Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
+Hippocratic License - See [LICENSE][licenseUrl]
 
 &nbsp;
 
-Created by [Ian Walter](https://iankwalter.com)
+Created by [Ian Walter](https://ianwalter.dev)
 
 [eslintUrl]: https://eslint.org/
 [svelteUrl]: https://svelte.dev
 [npmImage]: https://img.shields.io/npm/v/@ianwalter/eslint-config-svelte.svg
 [npmUrl]: https://www.npmjs.com/package/@ianwalter/eslint-config-svelte
+[ciImage]: https://github.com/ianwalter/eslint-config-svelte/workflows/CI/badge.svg
+[ciUrl]: https://github.com/ianwalter/eslint-config-svelte/actions
 [configUrl]: https://github.com/ianwalter/eslint-config
 [vueUrl]: https://github.com/ianwalter/eslint-config-vue
 [licenseUrl]: https://github.com/ianwalter/eslint-config-svelte/blob/master/LICENSE
