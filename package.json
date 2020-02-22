@@ -31,7 +31,7 @@
     "babel-eslint": "^10.0.3"
   },
   "devDependencies": {
-    "@ianwalter/bff": "^9.5.0",
+    "@ianwalter/bff": "^9.6.0",
     "@ianwalter/release": "^5.0.0",
     "@ianwalter/renovate-config": "^1.2.0"
   },
